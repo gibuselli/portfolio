@@ -236,8 +236,7 @@ a {
 
 
 .portfolio figure {
-  text-align: center;
-  
+  text-align: center;  
 }
 
 .img-portfolio {
@@ -268,14 +267,18 @@ a {
     transform: scale(0.9);
   }
 }
-.be-the-hero {
+
+.be-the-hero,
+.fuel-mentor {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-.be-the-hero:hover, .be-the-hero:focus, .be-the-hero:active {
+.be-the-hero:hover, .fuel-mentor:hover,
+.be-the-hero:focus, .fuel-mentor:focus,
+.be-the-hero:active, .fuel-mentor:active {
   -webkit-animation-name: hvr-pulse;
   animation-name: hvr-pulse;
   -webkit-animation-duration: 1s;
@@ -286,6 +289,15 @@ a {
   animation-iteration-count: infinite;
 }
 
+.project-active {
+  color: whitesmoke;
+  padding: 10px;
+}
+
+.project-inactive {
+  color: grey;
+  padding: 10px;
+}
 
 .contato {
   text-align: center;
@@ -311,8 +323,7 @@ a {
 }
 
 .copyright {
-  font-size: 0.8em;
-  
+  font-size: 0.8em;  
 }
 
 .icons {
