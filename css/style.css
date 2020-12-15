@@ -276,9 +276,9 @@ a {
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-.be-the-hero:hover, .fuel-mentor:hover,
-.be-the-hero:focus, .fuel-mentor:focus,
-.be-the-hero:active, .fuel-mentor:active {
+.be-the-hero:hover, .fuel-mentor:hover, .dice-roller:hover,
+.be-the-hero:focus, .fuel-mentor:focus, .dice-roller:focus,
+.be-the-hero:active, .fuel-mentor:active, .dice-roller:active {
   -webkit-animation-name: hvr-pulse;
   animation-name: hvr-pulse;
   -webkit-animation-duration: 1s;
