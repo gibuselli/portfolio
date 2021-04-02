@@ -101,6 +101,7 @@ a {
 
 h2 {
   font-weight: bold;
+  font-size: 30px;
 }
 
 .titulo img {
@@ -246,6 +247,21 @@ h2 {
   width: 220px;
   object-fit: cover;
   border-radius: 20%;
+}
+
+
+.techs figure {
+  padding: 40px;
+}
+
+.img-techs {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border: 16px solid white;
+  border-radius: 20%;
+  background-color: white;
+  overflow: hidden;
 }
 
 
